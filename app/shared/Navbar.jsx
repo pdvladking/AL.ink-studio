@@ -9,7 +9,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { href: "/studio", label: "Studio" },
+    { href: "/studio", label: "Ink House" },
     { href: "/artists", label: "Artists" },
     { href: "/gallery", label: "Gallery" },
     { href: "/bookings", label: "Bookings" },
@@ -19,11 +19,14 @@ export default function Navbar() {
   const handleLinkClick = () => setOpen(false);
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-sky-50 text-neutral-700 shadow-md">
-      <div className="max-w-[1200px] mx-auto flex flex-row md:flex-row items-center justify-between px-6 py-4">
+    <nav className="sticky top-0 z-50 w-full bg-black text-white shadow-md">
+      <div className="max-w-300 mx-auto flex flex-row md:flex-row items-center justify-between px-6 py-4">
         
         {/* Logo */}
-        <Logo size={48} />
+        <div className="rounded-full border-2 border-white p-2 bg-black
+        transition duration-300 hover:border-yellow-500">
+        <Logo size={60} />
+        </div>
 
         {/* Desktop links */}
         <div className="hidden md:flex justify-center gap-6">
