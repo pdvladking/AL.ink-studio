@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ArtistCard({ name, bio, image, socials }) {
   return (
-    <div className="bg-white shadow-md rounded-lg p-6 text-center overflow-hidden">
+    <div className="bg-neutral-900 shadow-md rounded-lg p-6 text-center overflow-hidden">
       {/* Artist image (fixed height, responsive fill) */}
       {image ? (
         <div className="relative w-full h-64 mb-4">
@@ -22,12 +22,12 @@ export default function ArtistCard({ name, bio, image, socials }) {
       )}
 
       {/* Name + Bio */}
-      <h3 className="text-lg font-semibold text-gray-700 mb-2">{name}</h3>
-      <p className="text-sm text-gray-600">{bio}</p>
+      <h3 className="text-lg font-semibold text-white underline decoration-amber-400 mb-2">{name}</h3>
+      <p className="text-sm text-white">{bio}</p>
 
       {/* Socials */}
       {socials?.length ? (
-        <div className="flex justify-center gap-4 mt-4 text-xl text-gray-600">
+        <div className="flex justify-center gap-4 mt-4 text-xl text-yellow-600">
           {socials.map(({ href, icon: IconBase, label }) => (
             <a
               key={label}

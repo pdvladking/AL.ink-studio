@@ -34,7 +34,7 @@ export default function Hero() {
          <h1
       className={`${greatVibes.className} py-5 text-4xl md:text-5xl mb-6 leading-tight text-white`}
     >
-      Where tattoo studio feels like you just met your{" "}
+      Where the tattoo studio feels like you just met your{" "}
       <span className="text-yellow-500">long lost friend.</span>
     </h1>
         <div className="flex py-2 gap-4 justify-center md:justify-center">

@@ -1,16 +1,15 @@
 "use client";
+import SectionHeading from "../components/SectionHeading";
 import ArtistCard from "../features/artists/ArtistCard";
 import { artistsData } from "../features/artists/artistsData";
 import ButtonLink from "../shared/ButtonLink";
 
 export default function ArtistPage() {
   return (
-    <div className="flex flex-col min-h-screen bg-linear-to-tl from-neutral-50 to-sky-50">
+    <div className="flex flex-col min-h-screen">
       {/* Main content */}
       <main className="grow max-w-6xl mx-auto px-4 sm:px-6 py-16">
-        <h2 className="text-3xl sm:text-4xl font-playfair-display font-bold text-center mb-12 text-neutral-800">
-          Meet Our Artists
-        </h2>
+        <SectionHeading>Meet Our Artists</SectionHeading>
 
         {/* Artist grid section */}
         <section
