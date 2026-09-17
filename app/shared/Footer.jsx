@@ -21,7 +21,7 @@ export default function FooterSection() {
   ];
 
   const contacts = [
-    { icon: FaPhone, text: "+977-9816245996", href: "tel:+9779816245996", label: "Call Eden Tattoo Nepal" },
+    { icon: FaPhone, text: "+977-9764638332", href: "tel:+9779764638332", label: "Call Eden Tattoo Nepal" },
     { icon: FaEnvelope, text: "al.inkstudio23@gmail.com", href: "mailto:al.inkstudio23@gmail.com", label: "Al.ink studio" },
     { icon: FaWhatsapp, text: "WhatsApp", href: "https://wa.me/9764638332", label: "WhatsApp Eden Tattoo Nepal" },
   ];

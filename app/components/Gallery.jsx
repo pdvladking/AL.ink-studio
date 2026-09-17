@@ -51,7 +51,7 @@ export default function GalleryPreview() {
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           loop
-          className="rounded-lg shadow-lg border-2 border-white"
+          className="rounded-lg shadow-lg "
         >
           {images.map(({ src, alt }, i) => (
             <SwiperSlide key={i}>
