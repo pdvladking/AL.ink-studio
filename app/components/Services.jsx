@@ -3,7 +3,6 @@ import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
 import {
   PaintBrushIcon,
-  SparklesIcon,
   ArrowPathIcon,
   ShieldCheckIcon,
 } from "@heroicons/react/24/solid";
@@ -40,11 +39,7 @@ export default function ServicesSection() {
   };
 
   const services = [
-    {
-      title: "Fine Line & Minimalist",
-      desc: "Precision fine line tattoos crafted at Eden Tattoo Nepal – elegant and timeless.",
-      icon: SparklesIcon,
-    },
+
     {
       title: "Cover-Ups & Reworks",
       desc: "Transform old ink into fresh art at Eden Tattoo Nepal with expert layering and shading.",
@@ -73,7 +68,7 @@ export default function ServicesSection() {
           viewport={{ once: true, amount: 0.3 }}
         >
           <motion.div
-            className="bg-gray-900 p-8 rounded-lg shadow-lg hover:shadow-xl transition text-center"
+            className="bg-neutral-900 p-8 rounded-lg shadow-lg hover:shadow-xl transition border border-white text-center"
             variants={cardVariants}
           >
             <HighlightIcon className="h-10 w-10 text-yellow-400 mb-4 mx-auto" />
@@ -95,14 +90,14 @@ export default function ServicesSection() {
           {services.map(({ title, desc, icon: Icon }, i) => (
             <motion.div
               key={i}
-              className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition"
+              className="bg-neutral-900 p-6 rounded-lg shadow hover:shadow-lg transition border border-white"
               variants={cardVariants}
             >
               <Icon className="h-8 w-8 text-yellow-400 mb-4" aria-label={`${title} icon`} />
-              <h3 className="text-xl font-semibold mb-2 text-neutral-700">
+              <h3 className="text-xl text-white font-semibold mb-2 ">
                 {title}
               </h3>
-              <p className="text-neutral-600">{desc}</p>
+              <p className="bg-neutral-900">{desc}</p>
             </motion.div>
           ))}
         </motion.div>
