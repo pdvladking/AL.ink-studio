@@ -13,9 +13,9 @@ const sizes = {
 
 const variants = {
   primary:
-    "bg-yellow-600 text-white font-semibold shadow-md transition-transform hover:scale-110 hover:bg-yellow-600 focus:ring-2",
+    "bg-white text-black font-semibold shadow-md transition-transform hover:scale-105 hover:bg-yellow-200 focus:ring-2 focus:ring-black",
   secondary:
-    "bg-transparent border-2 border-yellow-500 text-yellow-700 font-semibold transition-colors hover:bg-yellow-600 hover:text-white focus:ring-2",
+    "bg-transparent border-2 border-white text-white font-semibold transition-colors hover:bg-white hover:text-black focus:ring-2 focus:ring-white",
 };
 
 export default function ButtonLink({

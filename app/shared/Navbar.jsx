@@ -61,7 +61,7 @@ export default function Navbar() {
 
       {/* Mobile menu with animation */}
       <div
-        className={`md:hidden absolute top-full left-0 w-full bg-sky-50 backdrop-blur-md flex flex-col items-center gap-4 pb-4 z-40
+        className={`md:hidden absolute top-full left-0 w-full bg-black backdrop-blur-md flex flex-col items-center gap-4 pb-4 z-40
           transition-all duration-300 ease-in-out
           ${open ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"}`}
       >

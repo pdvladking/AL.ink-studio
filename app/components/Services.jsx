@@ -1,4 +1,5 @@
 "use client";
+import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
 import {
   PaintBrushIcon,
@@ -56,12 +57,12 @@ export default function ServicesSection() {
     },
   ];
 
+  const HighlightIcon = highlight.icon; 
+
   return (
-    <section id="services" className="py-16 bg-linear-to-tr from-neutral-50 via-white to-sky-50">
+    <section id="services" className="py-16 bg-neutral-950 border-b border-white pb-12">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-playfair-display font-bold mb-12 text-center text-neutral-700">
-         Services at Eden Tattoo Nepal 
-        </h2>
+        <SectionHeading>What we Offer</SectionHeading>
 
         {/* Highlight card */}
         <motion.div
@@ -72,14 +73,14 @@ export default function ServicesSection() {
           viewport={{ once: true, amount: 0.3 }}
         >
           <motion.div
-            className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition text-center"
+            className="bg-gray-900 p-8 rounded-lg shadow-lg hover:shadow-xl transition text-center"
             variants={cardVariants}
           >
-            <highlight.icon className="h-10 w-10 text-yellow-400 mb-4 mx-auto" />
-            <h3 className="text-2xl font-semibold mb-3 text-neutral-700">
+            <HighlightIcon className="h-10 w-10 text-yellow-400 mb-4 mx-auto" />
+            <h3 className="text-2xl text-white font-semibold mb-3">
               {highlight.title}
             </h3>
-            <p className="text-neutral-600 max-w-xl mx-auto">{highlight.desc}</p>
+            <p className="text-white max-w-xl mx-auto">{highlight.desc}</p>
           </motion.div>
         </motion.div>
 
@@ -97,7 +98,7 @@ export default function ServicesSection() {
               className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition"
               variants={cardVariants}
             >
-              <Icon className="h-8 w-8 text-yellow-400 mb-4" aria-label="Fine line tattoo icon" />
+              <Icon className="h-8 w-8 text-yellow-400 mb-4" aria-label={`${title} icon`} />
               <h3 className="text-xl font-semibold mb-2 text-neutral-700">
                 {title}
               </h3>
