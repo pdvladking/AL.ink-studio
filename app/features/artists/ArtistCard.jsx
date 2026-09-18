@@ -11,7 +11,7 @@ export default function ArtistCard({ name, bio, image, socials }) {
             src={image}
             alt={name}
             fill
-            className="object-cover rounded-lg"
+            className="object-cover rounded-lg border-2 border-white"
             sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw, 33vw"
             priority={false}
           />
