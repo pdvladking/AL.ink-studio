@@ -10,7 +10,7 @@ export const metadata = {
   keywords: [
     'AL.Ink Studio',
     'tattoo Kathmandu',
-    'tattoo studio Nepal',
+    'tattoo studio Ranibari',
     'professional tattoo artist',
   ],
   authors: [{ name: 'AL.Ink Studio' }],
