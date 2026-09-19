@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { render } from "@react-email/render";
-import BookingEmail from "../../../../emails/BookingEmail";
-import ContactEmail from "../../../../emails/ContactEmail";
+import BookingEmail from "../../../emails/BookingEmail";
+import ContactEmail from "../../../emails/ContactEmail";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const requests = new Map();
@@ -65,7 +65,7 @@ export async function POST(req) {
 
     resend.emails.send({
       from: "support@rajathapa.com.np", 
-      to: "edentattoo73@gmail.com",
+      to: "al.inkstudio23@gmail.com",
       subject: `[${type === "contact" ? "Contact" : "Booking"} Request] ${name} - ${style || "General"}`,
       html: htmlContent,
       text: `

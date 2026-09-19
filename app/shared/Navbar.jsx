@@ -13,7 +13,7 @@ export default function Navbar() {
     { href: "/artists", label: "Artists" },
     { href: "/gallery", label: "Gallery" },
     { href: "/bookings", label: "Bookings" },
-    { href: "/testimonials", label: "Testimonials" },
+    // { href: "/testimonials", label: "Testimonials" },
   ];
 
   const handleLinkClick = () => setOpen(false);

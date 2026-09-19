@@ -3,6 +3,7 @@ import { useState } from "react";
 import GalleryGrid from "../features/gallery/GalleryGrid";
 import galleryData from "../features/gallery/galleryData";
 import ButtonLink from "../shared/ButtonLink";
+import SectionHeading from "../components/SectionHeading";
 
 export default function GalleryPage() {
   const [filter, setFilter] = useState("All");
@@ -13,11 +14,9 @@ export default function GalleryPage() {
     filter === "All" ? galleryData : galleryData.filter((item) => item.category === filter);
 
   return (
-    <div className="flex flex-col min-h-screen bg-linear-to-tl from-neutral-50 to-sky-50">
+    <div className="flex flex-col min-h-screen">
       <main className="grow w-full max-w-6xl mx-auto py-16 px-6">
-        <h2 className="text-3xl sm:text-4xl font-playfair-display font-bold text-neutral-800 text-center mb-12">
-          Tattoo Gallery
-        </h2>
+        <SectionHeading>Gallery</SectionHeading>
         <p className="text-neutral-600 mb-12 text-center">
           Explore our recent works — filter by style to find your vibe.
         </p>

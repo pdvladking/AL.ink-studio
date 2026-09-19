@@ -81,7 +81,7 @@ export default function ServicesSection() {
 
         {/* Grid of supporting services */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 gap-8"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"

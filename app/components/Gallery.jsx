@@ -69,7 +69,7 @@ export default function GalleryPreview() {
         </Swiper>
 
         <div className="mt-10 flex py-2 gap-4 justify-center md:justify-center ">
-          <ButtonLink href="/bookings" variant="primary" size="md">Meet Our Artists</ButtonLink>
+          <ButtonLink href="/artists" variant="primary" size="md">Meet Our Artists</ButtonLink>
           <ButtonLink href="/gallery" variant="secondary" size="md">Browse Our Gallery</ButtonLink>
         </div>
       </div>
