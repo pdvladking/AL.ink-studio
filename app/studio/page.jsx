@@ -28,18 +28,12 @@ export default function About() {
           {/* Right: Text Content */}
           <div className="text-center md:text-left">
             <p className="text-neutral-600 leading-relaxed mb-6">
-              AL.Ink Studio, located in the heart of Thamel, Kathmandu, is a 
-              premium destination for tattoos and piercings. Our artists combine 
-              creativity, professionalism, and hygiene standards to deliver 
-              unforgettable experiences. Whether it’s your first tattoo or a 
-              large custom piece, we make sure every client feels comfortable, 
-              respected, and proud of their art.
+              At AL.Ink Studio, we believe tattoos are more than ink — they’re stories etched into skin, symbols of identity, and art that lasts a lifetime.
+
+Founded in Ranibari, Kathmandu, our studio is a fresh space where creativity meets professionalism. Though newly established, our mission is clear: to provide a safe, welcoming environment where every client feels confident expressing themselves through body art.
             </p>
             <p className="text-neutral-600 leading-relaxed mb-6">
-              We specialize in diverse styles — from blackwork and realism to 
-              traditional and custom designs. Our studio is built on trust, 
-              passion, and a commitment to excellence. Every tattoo tells a 
-              story, and we’re here to help you tell yours.
+              We aim to grow into a hub for tattoo culture in Kathmandu — blending modern techniques with timeless artistry, and building a community of clients who see their tattoos as personal milestones
             </p>
 
             {/* CTA Buttons */}
