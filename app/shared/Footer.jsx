@@ -17,7 +17,7 @@ export default function FooterSection() {
     { href: "/gallery", label: "Gallery" },
     { href: "/artists", label: "Artists" },
     { href: "/studio", label: "About" },
-    { href: "/testimonials", label: "Testimonials" },
+    // { href: "/testimonials", label: "Testimonials" },
   ];
 
   const contacts = [

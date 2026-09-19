@@ -8,9 +8,9 @@ import Paintings from "./components/Paintings"
 
 // ✅ Page-specific SEO metadata
 export const metadata = {
-  title: "Eden Tattoo Nepal | Tattoo Studio in Thamel",
+  title: "Al.Ink Studio | Tattoo Studio in Ranibari",
   description:
-    "Professional tattoo and piercing studio in Thamel, Kathmandu. Clean, safe, and creative.",
+    "Professional tattoo and piercing studio in Ranibari, Kathmandu. Clean, safe, and creative.",
 };
 
 export default function HomePage() {

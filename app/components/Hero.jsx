@@ -21,7 +21,7 @@ export default function Hero() {
         <Image
           priority
           src="/images/hero.webp"
-          alt="Front view of Eden Tattoo Nepal studio in Thamel Kathmandu"
+          alt="Front view of Al.Ink studio in Ranibari Kathmandu"
           width={400}
           height={400}
           fetchPriority="high"

@@ -42,7 +42,7 @@ export default function ServicesSection() {
 
     {
       title: "Cover-Ups & Reworks",
-      desc: "Transform old ink into fresh art at Eden Tattoo Nepal with expert layering and shading.",
+      desc: "Transform old ink into fresh art at AL.Ink studio with expert layering and shading.",
       icon: ArrowPathIcon,
     },
     {

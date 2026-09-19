@@ -4,47 +4,47 @@ import Navbar from './shared/Navbar';
 import BackToTop from './components/BackToTop';
 
 export const metadata = {
-  title: 'Eden Tattoo Nepal | Professional Tattoo Studio in Kathmandu',
+  title: 'AL.Ink Studio | Professional Tattoo Studio in Kathmandu',
   description:
-    'Eden Tattoo Nepal offers professional tattoo artistry in Kathmandu. Explore our portfolio and book your appointment online.',
+    'AL.Ink Studio offers professional tattoo artistry in Kathmandu. Explore our portfolio and book your appointment online.',
   keywords: [
-    'Eden Tattoo Nepal',
+    'AL.Ink Studio',
     'tattoo Kathmandu',
     'tattoo studio Nepal',
     'professional tattoo artist',
   ],
-  authors: [{ name: 'Eden Tattoo Nepal' }],
+  authors: [{ name: 'AL.Ink Studio' }],
   openGraph: {
-    title: 'Eden Tattoo Nepal | Professional Tattoo Studio in Kathmandu',
+    title: 'AL.Ink Studio | Professional Tattoo Studio in Kathmandu',
     description:
-      'Explore Eden Tattoo Nepal’s portfolio and book your tattoo appointment online.',
-    url: 'https://www.edentattoonepal.com.np',
-    siteName: 'Eden Tattoo Nepal',
+      'Explore AL.Ink Studio’s portfolio and book your tattoo appointment online.',
+    url: 'https://www.alinkstudio.com.np',
+    siteName: 'AL.Ink Studio',
     images: [
       {
-        url: 'https://www.edentattoonepal.com.np/hero.webp',
+        url: 'https://www.alinkstudio.com.np/hero.webp',
         width: 1200,
         height: 630,
-        alt: 'Eden Tattoo Nepal Studio',
+        alt: 'AL.Ink Studio Studio',
       },
       {
-        url: 'https://www.edentattoonepal.com.np/og-image.jpg',
+        url: 'https://www.alinkstudio.com.np/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Eden Tattoo Nepal Studio (JPEG fallback)',
+        alt: 'AL.Ink Studio Studio (JPEG fallback)',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Eden Tattoo Nepal | Professional Tattoo Studio in Kathmandu',
+    title: 'AL.Ink Studio | Professional Tattoo Studio in Kathmandu',
     description:
-      'Explore Eden Tattoo Nepal’s portfolio and book your tattoo appointment online.',
-    images: ['https://www.edentattoonepal.com.np/hero.webp'],
+      'Explore AL.Ink Studio’s portfolio and book your tattoo appointment online.',
+    images: ['https://www.alinkstudio.com.np/hero.webp'],
   },
   alternates: {
-    canonical: 'https://www.edentattoonepal.com.np',
+    canonical: 'https://www.alinkstudio.com.np',
   },
   icons: {
     icon: [
@@ -66,13 +66,13 @@ export default function RootLayout({ children }) {
   const businessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Eden Tattoo Nepal",
-    "image": "https://www.edentattoonepal.com.np/hero.webp",
-    "url": "https://www.edentattoonepal.com.np",
+    "name": "AL.Ink Studio",
+    "image": "https://www.alinkstudio.com.np/hero.webp",
+    "url": "https://www.alinkstudio.com.np",
     "telephone": "+977-9816245996", 
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Chaksibari Marg",
+      "streetAddress": "Ranibari Marg",
       "addressLocality": "Kathmandu",
       "addressRegion": "Bagmati",
       "postalCode": "44600",
@@ -86,8 +86,8 @@ export default function RootLayout({ children }) {
     "openingHours": "Mo-Su 10:00-23:00",
     "priceRange": "$$",
     "sameAs": [
-      "https://www.facebook.com/profile.php?id=100076221092054",
-      "https://www.instagram.com/edentattoonepal/"
+      "https://www.facebook.com/Al.Inkstudio23/",
+      "https://www.instagram.com/al.inkstudio/"
     ]
   };
 

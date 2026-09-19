@@ -18,7 +18,7 @@ export default function About() {
           <div className="relative w-full h-[350px] md:h-[450px]">
             <Image
               src="/images/studio.webp"
-              alt="Tattoo studio interior in Thamel, Kathmandu"
+              alt="Tattoo studio interior in Ranibari, Kathmandu"
               fill
               className="object-cover rounded-lg shadow-lg"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
@@ -28,7 +28,7 @@ export default function About() {
           {/* Right: Text Content */}
           <div className="text-center md:text-left">
             <p className="text-neutral-600 leading-relaxed mb-6">
-              Eden Tattoo Studio, located in the heart of Thamel, Kathmandu, is a 
+              AL.Ink Studio, located in the heart of Thamel, Kathmandu, is a 
               premium destination for tattoos and piercings. Our artists combine 
               creativity, professionalism, and hygiene standards to deliver 
               unforgettable experiences. Whether it’s your first tattoo or a 
