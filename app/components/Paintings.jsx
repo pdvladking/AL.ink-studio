@@ -10,27 +10,27 @@ import SectionHeading from "./SectionHeading";
 export default function GalleryPreview() {
   const images = [
    {
-      src: "/images/Paintings-preview/paint-1.JPEG",
+      src: "/images/Paintings-preview/paint-1.webp",
       alt: "Fine line tattoo design at Eden Tattoo Nepal studio in Kathmandu",
     },
     {
-      src: "/images/Paintings-preview/paint-2.JPEG",
+      src: "/images/Paintings-preview/paint-2.webp",
       alt: "Minimalist tattoo artwork created by Eden Tattoo Nepal artist",
     },
     {
-      src: "/images/Paintings-preview/paint-3.JPEG",
+      src: "/images/Paintings-preview/paint-3.webp",
       alt: "Tattoo cover-up transformation at Eden Tattoo Nepal in Thamel Kathmandu",
     },
     {
-      src: "/images/Paintings-preview/paint-4.JPEG",
+      src: "/images/Paintings-preview/paint-4.webp",
       alt: "Custom tattoo design session at Eden Tattoo Nepal studio",
     },
     {
-      src: "/images/Paintings-preview/paint-5.JPEG",
+      src: "/images/Paintings-preview/paint-5.webp",
       alt: "Piercing service at Eden Tattoo Nepal studio in Kathmandu",
     },
     {
-      src: "/images/Paintings-preview/paint-6.JPEG",
+      src: "/images/Paintings-preview/paint-6.webp",
       alt: "Tattoo detail showcasing shading and artistry at Eden Tattoo Nepal",
     },
   ];
