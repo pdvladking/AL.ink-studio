@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="flex-1 flex justify-center border-2 rounded-3xl py-4">
         <Image
           priority
-          src="/hero.webp"
+          src="/images/hero.webp"
           alt="Front view of Eden Tattoo Nepal studio in Thamel Kathmandu"
           width={400}
           height={400}
