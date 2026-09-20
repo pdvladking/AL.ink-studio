@@ -92,14 +92,14 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
         />
       </head>
-      <body className="antialiased">
+      <body className="antialiased bg-black text-white">
         <Navbar />
         <main className="max-w-300 mx-auto px-4 text-center">
           {children}

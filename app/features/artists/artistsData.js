@@ -18,9 +18,9 @@ export const artistsData = [
     ]
   },
   {
-    name: "Aasma Shakya Dangol",
+    name: "Aashma Shakya Dangol",
     bio: "Tattoo artist at AL.INK Studio with a Bachelor’s degree in Art and a strong foundation in visual arts and design. My approach to tattooing combines artistic technique, thoughtful composition, and attention to detail to create pieces that feel both personal and intentional.I enjoy translating individual ideas into well-crafted tattoos, from refined linework to more detailed and expressive designs. Every piece is approached with care, with the goal of creating artwork that complements each client and stands the test of time.For me, tattooing is a collaborative proces, from developing the initial concept to creating the final piece. I strive to provide a professional, comfortable, and memorable experience for every client.Come for the tattoo, stay for the good vibes. 🖤",
-    image: "/images/artists/aasma.webp",
+    image: "/images/artists/aashma.webp",
     socials: [
       { href: "https://www.instagram.com/aashma.art/", icon: FaInstagram, label: "instagram"},
     ]
