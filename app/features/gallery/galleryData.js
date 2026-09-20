@@ -13,9 +13,9 @@ const galleryData = [
   { src: "/images/gallery/preview-9.webp", alt: "Fineline", category: "Fine line" },
 
   // Realism
-  // { src: "/images/gallery/realism/realism-1.webp", alt: "Realism", category: "Realism" },
-  // { src: "/images/gallery/realism/realism-2.webp", alt: "Realism", category: "Realism" },
-  // { src: "/images/gallery/realism/realism-3.webp", alt: "Realism", category: "Realism" },
+  { src: "/images/gallery/preview-10.webp", alt: "Realism", category: "Realism" },
+  { src: "/images/gallery/preview-11.webp", alt: "Realism", category: "Realism" },
+  { src: "/images/gallery/preview-12.webp", alt: "Realism", category: "Realism" },
 
   // Oriental
   // { src: "/images/gallery/oriental/oriental-1.webp", alt: "Oriental", category: "Oriental" },
