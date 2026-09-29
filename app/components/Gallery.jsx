@@ -10,7 +10,7 @@ import SectionHeading from "./SectionHeading";
 export default function GalleryPreview() {
   const images = [
    {
-      src: "/images/gallery-preview/preview-7.png",
+      src: "/images/gallery-preview/preview-7.webp",
       alt: "Fine line tattoo design at AL.Ink Studio studio in Kathmandu",
     },
     {
