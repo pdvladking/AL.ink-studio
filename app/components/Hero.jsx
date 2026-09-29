@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="flex-1 flex justify-center border-2 rounded-3xl py-4">
         <Image
           priority
-          src="/images/hero.webp"
+          src="/images/hero-1.webp"
           alt="Front view of Al.Ink studio in Ranibari Kathmandu"
           width={400}
           height={400}

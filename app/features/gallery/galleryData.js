@@ -1,21 +1,17 @@
 const galleryData = [
   // Fine Line
-  { src: "/images/gallery/preview-1.webp", alt: "Fineline", category: "Fine line" },
-  { src: "/images/gallery/preview-2.webp", alt: "Fineline", category: "Fine line" },
-  { src: "/images/gallery/preview-3.webp", alt: "Fineline", category: "Fine line" },
+  { src: "/images/gallery/custom/preview-7.webp", alt: "Custom", category: "Custom" },
+  { src: "/images/gallery/custom/preview-10.webp", alt: "Custom", category: "Custom" },
+  { src: "/images/gallery/custom/preview-11.webp", alt: "Custom", category: "Custom" },
 
-  { src: "/images/gallery/preview-4.webp", alt: "Fineline", category: "Fine line" },
-  { src: "/images/gallery/preview-5.webp", alt: "Fineline", category: "Fine line" },
-  { src: "/images/gallery/preview-6.webp", alt: "Fineline", category: "Fine line" },
-
-  { src: "/images/gallery/preview-7.webp", alt: "Fineline", category: "Fine line" },
-  { src: "/images/gallery/preview-8.webp", alt: "Fineline", category: "Fine line" },
-  { src: "/images/gallery/preview-9.webp", alt: "Fineline", category: "Fine line" },
+  { src: "/images/gallery/minimal/preview-14.webp", alt: "Minimal", category: "Minimal" },
+  { src: "/images/gallery/minimal/preview-16.webp", alt: "Minimal", category: "Minimal" },
+  { src: "/images/gallery/minimal/preview-17.webp", alt: "Minimal", category: "Minimal" },
 
   // Realism
-  { src: "/images/gallery/preview-10.webp", alt: "Realism", category: "Realism" },
-  { src: "/images/gallery/preview-11.webp", alt: "Realism", category: "Realism" },
-  { src: "/images/gallery/preview-12.webp", alt: "Realism", category: "Realism" },
+  { src: "/images/gallery/realism/preview-12.webp", alt: "Realism", category: "Realism" },
+  // { src: "/images/gallery/realism/preview-11.webp", alt: "Realism", category: "Realism" },
+  // { src: "/images/gallery/realism/preview-12.webp", alt: "Realism", category: "Realism" },
 
   // Oriental
   // { src: "/images/gallery/oriental/oriental-1.webp", alt: "Oriental", category: "Oriental" },
@@ -28,10 +24,11 @@ const galleryData = [
   // { src: "/images/gallery/geometric/geo-3.webp", alt: "Geometric", category: "Geometric" },
   
 
-  // // Piercing
-  // { src: "/images/gallery/piercing/piercing-4.webp", alt: "Piercing", category: "Piercing" },
-  // { src: "/images/gallery/piercing/piercing-6.webp", alt: "Piercing", category: "Piercing" },
-  // { src: "/images/gallery/piercing/piercing-3.webp", alt: "Piercing", category: "Piercing" },
+  // Piercing
+  { src: "/images/gallery/piercing/piercing-1.webp", alt: "Piercing", category: "Piercing" },
+  { src: "/images/gallery/piercing/piercing-2.webp", alt: "Piercing", category: "Piercing" },
+  { src: "/images/gallery/piercing/piercing-3.webp", alt: "Piercing", category: "Piercing" },
+  { src: "/images/gallery/piercing/piercing-4.webp", alt: "Piercing", category: "Piercing" },
   
 ];
 

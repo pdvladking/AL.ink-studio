@@ -10,27 +10,27 @@ import SectionHeading from "./SectionHeading";
 export default function GalleryPreview() {
   const images = [
    {
-      src: "/images/gallery-preview/preview-1.webp",
+      src: "/images/gallery-preview/preview-7.png",
       alt: "Fine line tattoo design at AL.Ink Studio studio in Kathmandu",
     },
     {
-      src: "/images/gallery-preview/preview-2.webp",
+      src: "/images/gallery-preview/preview-8.webp",
       alt: "Minimalist tattoo artwork created by AL.Ink Studio artist",
     },
     {
-      src: "/images/gallery-preview/preview-3.webp",
+      src: "/images/gallery-preview/preview-10.webp",
       alt: "Tattoo cover-up transformation at AL.Ink Studio in Thamel Kathmandu",
     },
     {
-      src: "/images/gallery-preview/preview-4.webp",
+      src: "/images/gallery-preview/preview-11.webp",
       alt: "Custom tattoo design session at AL.Ink Studio studio",
     },
     {
-      src: "/images/gallery-preview/preview-5.webp",
+      src: "/images/gallery-preview/preview-12.webp",
       alt: "Piercing service at AL.Ink Studio studio in Kathmandu",
     },
     {
-      src: "/images/gallery-preview/preview-6.webp",
+      src: "/images/gallery-preview/preview-6.jpeg",
       alt: "Tattoo detail showcasing shading and artistry at AL.Ink Studio",
     },
   ];

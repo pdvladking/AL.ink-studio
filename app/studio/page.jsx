@@ -17,7 +17,7 @@ export default function About() {
           {/* Studio Image */}
           <div className="relative w-full h-[350px] md:h-[450px]">
             <Image
-              src="/images/hero.webp"
+              src="/images/hero-1.webp"
               alt="Tattoo studio interior in Ranibari, Kathmandu"
               fill
               className="object-cover rounded-lg shadow-lg"
