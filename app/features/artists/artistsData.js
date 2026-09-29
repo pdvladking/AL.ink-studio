@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 export const artistsData = [
   {
     name: "Diwash Thapa (Lmr.zeppster)",
-    bio: "Owner & tattooer based at AL.INK Studio.I'm passionate about creating tattoos that feel personal,expressive, and built last,from delicate fine-line pieces to bold, detailed designs.For me tattooing is more than just putting ink on skin.It's about the connection,the story behind the piece,and making sure you leave with something you genuinely love.Come as a client,leave as a friend.🖤",
+    bio: "Owner & tattooer based at AL.INK Studio.I'm passionate about creating tattoos that feel personal,expressive,and built to last,from delicate fine-line pieces to bold,detailed designs.For me tattooing is more than just putting ink on skin.It's about the connection,the story behind the piece,and making sure you leave with something you genuinely love.Come as a client,leave as a friend.🖤",
     image: "/images/artists/dwas.webp",
     socials: [
       { href: "https://www.instagram.com/lmr.zeppster/", icon: FaInstagram, label: "instagram"},
